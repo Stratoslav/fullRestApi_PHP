@@ -1,0 +1,32 @@
+.container{
+    max-width: 865px;
+    margin: 0 auto;
+}
+.work_space{
+display: grid;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    }
+
+.posts_list{
+        display: flex;
+            justify-content: space-around;
+            padding: 0 10px;
+            list-style: none;
+}
+.post_list-item{
+        padding: 5px;
+            border: 1px solid #989898;
+            height: auto;
+            background: #efefef;
+            width: 300px;
+            border-radius: 4px;
+            margin: 0 5px;
+}
+.post_list-text{
+    line-break: anywhere;
+}
+.add_post-wrapper, .edit_post-wrapper{
+        display: inline-grid;
+}
